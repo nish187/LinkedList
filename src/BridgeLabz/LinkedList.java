@@ -1,6 +1,4 @@
 package BridgeLabz;
-
-
 public class LinkedList<T> {
     Node<T> head;
     Node<T> tail;
@@ -31,6 +29,12 @@ public class LinkedList<T> {
         Node<T>node=new Node<>(data);
         head.next=node;
         node.next=tail;
+    }
+
+    public T pop() {
+        T deletedElement = head.data;
+        head = head.next;
+        return deletedElement;
     }
 
     void display() {
