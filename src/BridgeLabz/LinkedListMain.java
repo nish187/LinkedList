@@ -1,6 +1,4 @@
 package BridgeLabz;
-
-
 public class LinkedListMain {
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList<>();
@@ -9,6 +7,8 @@ public class LinkedListMain {
         linkedList.push(56);
 
         linkedList.insert(30);
+
+        linkedList.pop();
 
         linkedList.display();
     }
