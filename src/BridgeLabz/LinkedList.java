@@ -1,7 +1,15 @@
 package BridgeLabz;
 
-public class LinkedList {
-    public static void main(String[] args) {
-        System.out.println("Data Structure Problem Using Java Generic");
+
+public class LinkedList<T> {
+    Node<T> head;
+    Node<T> tail;
+
+    void display() {
+        Node<T> temp = head;
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
     }
 }
