@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf58674-03fa-4b8b-a932-a53fa9efa799" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BridgeLabz/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BridgeLabz/LinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="aaf58674-03fa-4b8b-a932-a53fa9efa799" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
